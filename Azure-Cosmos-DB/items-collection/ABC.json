@@ -1,0 +1,23 @@
+{
+  "id": "ABCFamily",
+  "lastname": "ABC",
+  "children": {
+    "firstname": "Anna",
+    "grade": "10"
+  },
+  "grandchildren": {
+    "firstname": "Mary",
+    "grade": "9"
+  },
+  "address": {
+    "country": "USA",
+    "state": "CA",
+    "city": "LA"
+  },
+  "favourite fruits": {
+    "first_fav": "Mango",
+    "second_fav": "Watermelon",
+    "third_fav": "Grapes",
+    "fourth_fav": "Apples"
+  }
+}

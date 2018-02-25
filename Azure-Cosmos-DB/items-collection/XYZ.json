@@ -1,0 +1,20 @@
+{
+  "id": "XYZFamily",
+  "children": [
+    {
+      "lastname": "Anna",
+      "givenname": "James",
+      "grade": 8
+    },
+    {
+      "lastname": "Mary",
+      "givenname": "Thyme",
+      "grade": 3
+    }
+  ],
+  "address": {
+    "country": "USA",
+    "state": "NY",
+    "city": "Manhattan"
+  }
+}
