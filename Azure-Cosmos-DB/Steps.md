@@ -105,6 +105,20 @@ SELECT * FROM ch IN c.children
 SELECT ch.givenname ?? ch.firstname AS childname, ch.grade FROM ch IN c.children
 
 SELECT VALUE c.lastname || ',' || c.address.state FROM c
+
+select * from Items
+
+select * from c.children
+
+select c.children from c where c.address.state = 'NY'
+
+select f.id, f.location.city, f.location.state, ch.givenName ?? ch.firstName as childName from c as f join ch in f.children
+
+select { "child": ch.givenName ?? ch.firstName, "grade": ch.grade } as childAndGrade from ch in c.children
+
+select [ ch.givenName ?? ch.firstName, ch.grade ] as childAndGrade from ch in c.children
+
+select value [ ch.givenName ?? ch.firstName, ch.grade ] from ch in c.children
 ```
 
 ![](images/17.png)
@@ -126,3 +140,17 @@ SELECT VALUE c.lastname || ',' || c.address.state FROM c
 ![](images/25.png)
 
 ![](images/26.png)
+
+![](images/27.png)
+
+![](images/28.png)
+
+![](images/29.png)
+
+![](images/30.png)
+
+![](images/31.png)
+
+![](images/32.png)
+
+![](images/33.png)
